@@ -18,7 +18,8 @@
     <img src="https://img.shields.io/gitter/room/nwjs/nw.js.svg" alt="Gitter"/>
   </a>
   <a href="https://greenkeeper.io/" title="Greenkeeper">
-    <img src="https://badges.greenkeeper.io/VadimDez/ng2-pdf-viewer.svg" alt="Greenkeeper badge"/>
+    <img src="https://badges
+    .greenkeeper.io/VadimDez/ng2-pdf-viewer.svg" alt="Greenkeeper badge"/>
   </a>
   <a href="https://www.paypal.me/vadimdez" title="Donate to this project using Paypal">
     <img src="https://img.shields.io/badge/paypal-donate-yellow.svg" alt="PayPal donate button" />

@@ -17,7 +17,7 @@ import { PdfViewerComponent } from './pdf-viewer/pdf-viewer.component';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  pdfSrc: string | PDFSource | ArrayBuffer = './assets/pdf-test.pdf';
+  pdfSrc: string | PDFSource | ArrayBuffer = './assets/Interliving-Online-Katalog.pdf';
 
   // or pass options as object
   // pdfSrc: any = {
@@ -52,7 +52,7 @@ export class AppComponent {
   // Load pdf
   loadPdf() {
     const xhr = new XMLHttpRequest();
-    xhr.open('GET', '/assets/pdf-test.pdf', true);
+    xhr.open('GET', '/assets/Interliving-Online-Katalog.pdf', true);
     xhr.responseType = 'blob';
 
     xhr.onload = (e: any) => {

@@ -5,8 +5,8 @@
   "license": "MIT",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build --prod=true",
+    "start": "ng serve --port 4200 --host 0.0.0.0",
+    "build": "ng build --prod=false",
     "build:stats": "ng build --stats-json",
     "analyze": "webpack-bundle-analyzer dist/stats-es2015.json",
     "test": "ng test --watch false",
